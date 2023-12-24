@@ -3,12 +3,14 @@ import json
 
 # URL for the web service, should be similar to:
 # 'http://8530a665-66f3-49c8-a953-b82a2d312917.eastus.azurecontainer.io/score'
-scoring_uri = ''
+scoring_uri = 'http://786db85b-f370-4943-96b3-495b2fe5bfa0.southcenteralus.azure.io/score'
 # If the service is authenticated, set the key or token
-key = ''
+key = 'Z2p5K8Y7DeXFJghn9UNv16BIYQxtC4Ew'
 
 # Two sets of data to score, so we get two results back
-data = {"data":
+data = {
+        "Inputs":{
+        "data":
         [
           {
             "age": 17,
@@ -53,9 +55,9 @@ data = {"data":
             "pdays": 999,
             "poutcome": "failure",
             "previous": 1
-          },
+          },          
       ]
-    }
+    }}
 # Convert to JSON string
 input_data = json.dumps(data)
 with open("data.json", "w") as _f:
