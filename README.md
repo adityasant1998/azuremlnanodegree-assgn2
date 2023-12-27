@@ -91,5 +91,8 @@ Data file getting generated after this:
 
 ## Screen Recording
 link to a screen recording of the project in action
-https://drive.google.com/file/d/1BXpX_iWLbhoYu1BVXAFiJxmCF8XOqjcF/view?usp=sharing
+https://drive.google.com/file/d/1BXpX_iWLbhoYu1BVXAFiJxmCF8XOqjcF/view?usp=sharing (7.Publish and comsume pipeline : this also shows the demo for consuming the pipeline)
+
+## Future Improvements
+To improve the accuracy of the model, you can try solving the class imbalance issue in the dataset. Additionally, increasing the number of cross-validation can also help improve accuracy. Finally, you can try using deep learning algorithms that are not used by AutoML in the runs.
 
