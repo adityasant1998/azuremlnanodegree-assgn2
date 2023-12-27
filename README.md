@@ -66,7 +66,8 @@ Model got successfully deployed:
 Modified logs.py to enable app insights:
 ![logs.py](https://github.com/adityasant1998/azuremlnanodegree-assgn2/blob/4c19061258a714cffb27243313df51b46b6d77b6/screenshots/13.logs.py.jpg)
 
-App insights are enbaled:
+App insights are enabled:
+
 ![app insights enabled](https://github.com/adityasant1998/azuremlnanodegree-assgn2/blob/4c19061258a714cffb27243313df51b46b6d77b6/screenshots/14.app%20insights%20enabled.jpg)
 
 ### 5. Swagger Documentation
