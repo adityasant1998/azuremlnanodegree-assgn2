@@ -14,6 +14,7 @@ Enable consumption of the pipeline through REST endpoints.
 
 ## Architectural Diagram
 
+https://github.com/adityasant1998/azuremlnanodegree-assgn2/blob/421bd1a00ed9547d00b5d4a0fbd18cef736526f4/screenshots/Architecture%20Diagram.jpeg
 
 ## Key Steps
 
