@@ -86,6 +86,7 @@ To use the provided endpoint.py script, replace the scoring_uri and key with the
 ![endpoint.py](https://github.com/adityasant1998/azuremlnanodegree-assgn2/blob/4c19061258a714cffb27243313df51b46b6d77b6/screenshots/18.endpoint.py.jpg)
 
 Data file getting generated after this:
+
 ![data file getting created](https://github.com/adityasant1998/azuremlnanodegree-assgn2/blob/4c19061258a714cffb27243313df51b46b6d77b6/screenshots/19.data%20file%20getting%20created.jpg)
 
 ## Screen Recording
