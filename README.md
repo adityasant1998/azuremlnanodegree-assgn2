@@ -1,9 +1,16 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
+# Project Overview:
 
+This project explores building and deploying a machine learning model for a bank marketing scenario. We'll leverage Azure's cloud capabilities to achieve the following:
 
-# Your Project Title Here
-
-*TODO:* Write an overview to your project.
+Model Training:
+Utilize Azure AutoML for automated model building with a classification task.
+Deploy the highest-performing model (a voting ensemble in this case).
+Model Deployment:
+Host the model on Azure Container Instances (ACI) with secure authentication.
+Expose the model through REST endpoints for easy access.
+Pipeline Creation:
+Design and publish a machine learning pipeline using Azure ML Studio or Python SDK.
+Enable consumption of the pipeline through REST endpoints.
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step.
