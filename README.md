@@ -18,12 +18,12 @@ Enable consumption of the pipeline through REST endpoints.
 
 ## Key Steps
 
-1. Authentication
+### 1. Authentication
 Authentication is an essential aspect of ensuring that operations run smoothly. Continuous Integration and Delivery (CI/CD) systems rely on uninterrupted flows. When authentication is not set up correctly, it requires human intervention, which can interrupt the flow. Ideally, the system should not stop waiting for a user to input a password. Therefore, it’s advisable to use automation for authentication whenever possible. There are three types of authentication: Key-Based, Token-Based, and Interactive.
 
 Udacity Classroom - "If you are using the lab Udacity provided to you, you can skip this step since you are not authorized to create a security principal".So, this step is skipped in Azure.
 
-2. Automated ML Experiment
+### 2. Automated ML Experiment
 
 My workspace: 
 ![My workspace](https://github.com/adityasant1998/azuremlnanodegree-assgn2/blob/4c19061258a714cffb27243313df51b46b6d77b6/screenshots/1.workspace.jpg)
@@ -54,14 +54,14 @@ Model Details are given below:
 
 ![feature importance](https://github.com/adityasant1998/azuremlnanodegree-assgn2/blob/4c19061258a714cffb27243313df51b46b6d77b6/screenshots/11.feature%20importance.jpg)
 
-3. Deploy the best model
+### 3. Deploy the best model
 
 I clicked on the best model in AutoML section > Deploy > As Webservice
 
 Model got successfully deployed:
 ![model deployment](https://github.com/adityasant1998/azuremlnanodegree-assgn2/blob/4c19061258a714cffb27243313df51b46b6d77b6/screenshots/12.model%20deployment.jpg)
 
-4. Enable logging
+### 4. Enable logging
 
 Modified logs.py to enable app insights:
 ![logs.py](https://github.com/adityasant1998/azuremlnanodegree-assgn2/blob/4c19061258a714cffb27243313df51b46b6d77b6/screenshots/13.logs.py.jpg)
@@ -69,7 +69,7 @@ Modified logs.py to enable app insights:
 App insights are enbaled:
 ![app insights enabled](https://github.com/adityasant1998/azuremlnanodegree-assgn2/blob/4c19061258a714cffb27243313df51b46b6d77b6/screenshots/14.app%20insights%20enabled.jpg)
 
-5. Swagger Documentation
+### 5. Swagger Documentation
 
 Running swagger.sh to run swagger locally
 ![running swagger locally](https://github.com/adityasant1998/azuremlnanodegree-assgn2/blob/4c19061258a714cffb27243313df51b46b6d77b6/screenshots/15.running%20swagger%20locally.jpg)
@@ -80,7 +80,7 @@ This is the default swagger web ui:
 serve.py is executed and it will start a Python server on port 8000. This script needs to be right next to the downloaded swagger.json file
 ![configured swagger web ui](https://github.com/adityasant1998/azuremlnanodegree-assgn2/blob/4c19061258a714cffb27243313df51b46b6d77b6/screenshots/17.configured%20swagger%20web%20ui.jpg)
 
-6. Consume model endpoints
+### 6. Consume model endpoints
 
 To use the provided endpoint.py script, replace the scoring_uri and key with the REST endpoint and primary key, respectively. The script issues a POST request to the deployed model and gets a JSON response that is printed to the terminal:
 ![endpoint.py](https://github.com/adityasant1998/azuremlnanodegree-assgn2/blob/4c19061258a714cffb27243313df51b46b6d77b6/screenshots/18.endpoint.py.jpg)
